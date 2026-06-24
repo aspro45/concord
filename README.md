@@ -13,7 +13,7 @@ This is not a generic escrow page. Concord is built around one operational promi
 | Network | GenLayer Studionet |
 | Chain ID | `61999` |
 | Contract | `0x0946408990Be34450e9438BeEdB9cF5f3dFAd1e0` |
-| Contract Explorer | https://explorer-studio.genlayer.com/address/0x0946408990Be34450e9438BeEdB9cF5f3dFAd1e0 |
+| Contract Explorer | https://explorer-studio.genlayer.com/contracts/0x0946408990Be34450e9438BeEdB9cF5f3dFAd1e0 |
 | Deploy TX | `0xb370e96c7f764f30d2e1c54a14b6fad6e20e93ae43720f50b7dc6e2d42abe259` |
 | Deployed | `2026-06-23T17:58:23.231Z` |
 

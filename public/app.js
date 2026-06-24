@@ -2,7 +2,7 @@ import { makeReader, write, connectWallet, activeAccount, balanceOf, short, toGe
   from "./shared/genlayer-lite.js";
 
 const CONTRACT = "0x0946408990Be34450e9438BeEdB9cF5f3dFAd1e0";
-const EXPLORER = "https://explorer-studio.genlayer.com/address/0x0946408990Be34450e9438BeEdB9cF5f3dFAd1e0";
+const EXPLORER = "https://explorer-studio.genlayer.com/contracts/0x0946408990Be34450e9438BeEdB9cF5f3dFAd1e0";
 const { read } = makeReader(CONTRACT);
 const A_OPEN = 0, A_SETTLED = 1, A_VOIDED = 2;
 const STLABEL = ["Open", "Settled", "Voided"];
@@ -12,7 +12,7 @@ let account = null, ags = [];
 const $ = (id) => document.getElementById(id);
 const esc = (s) => (s || "").replace(/[&<>"]/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
 
-$("contractLink").href = "https://explorer-studio.genlayer.com/address/0x0946408990Be34450e9438BeEdB9cF5f3dFAd1e0";
+$("contractLink").href = "https://explorer-studio.genlayer.com/contracts/0x0946408990Be34450e9438BeEdB9cF5f3dFAd1e0";
 $("contractLink").textContent = "Contract " + short(CONTRACT) + " \u2197";
 
 function toast(msg, kind = "", title = "concord") {
